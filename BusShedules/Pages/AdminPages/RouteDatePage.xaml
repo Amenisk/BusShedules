@@ -47,7 +47,7 @@
                 </ComboBox>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Foreground="Red" VerticalAlignment="Center">Дата:</TextBlock>
-                    <DatePicker Name="dpRoute" IsDropDownOpen="True" Width="200" Margin="10 0 0 0" SelectedDateFormat="Short"/>
+                    <DatePicker Name="dpRoute" IsDropDownOpen="False" Width="200" Margin="10 0 0 0" SelectedDateFormat="Short"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" >
                     <TextBlock FontSize="14" Foreground="Red" VerticalAlignment="Center">Время:</TextBlock>

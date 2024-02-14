@@ -45,7 +45,7 @@
         <Grid Grid.Row="1">
             <ScrollViewer HorizontalAlignment="Center">
                 <DataGrid x:Name="dgRoutes" AutoGenerateColumns="False" HorizontalGridLinesBrush="DarkGreen" Background="LightGreen"
-                    RowBackground="LightGreen" AlternatingRowBackground="White" SelectionChanged="NavigateToRoutePage" Margin="5">
+                    RowBackground="LightGreen" SelectionChanged="NavigateToRoutePage" Margin="5">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Номер" Binding="{Binding Path=BusNumber}" />
                         <DataGridTextColumn Header="Название" Binding="{Binding Path=Name}"  />
